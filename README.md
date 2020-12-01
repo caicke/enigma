@@ -2,7 +2,7 @@
 Enigma SBC
 
 ######## C #############
-
+```c
 #include <stdio.h>
 #include <string.h>
 
@@ -32,11 +32,12 @@ int main(){
     
     return 0;
 }
-
+```
 #######################################################
 
 ########### Python #########################################
 
+```python
 def main():
   msg = input()
   crib = input()
@@ -55,3 +56,4 @@ def main():
   print(qtd,"\n")
   
   return 0;
+```
